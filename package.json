@@ -1,0 +1,31 @@
+{
+  "name": "festival_de_musica",
+  "version": "1.0.0",
+  "description": "Aprendiendo SASS y nmp",
+  "type": "module",
+  "keywords": [
+    "SASS",
+    "NPM",
+    "Gulp"
+  ],
+  "homepage": "https://github.com/FelipeReina12/Festival_de_musica#readme",
+  "bugs": {
+    "url": "https://github.com/FelipeReina12/Festival_de_musica/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeReina12/Festival_de_musica.git"
+  },
+  "license": "ISC",
+  "author": "Juan Felipe Reina",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css",
+    "dev": "gulp dev"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.1",
+    "gulp-sass": "^6.0.1",
+    "sass": "^1.97.3"
+  }
+}
