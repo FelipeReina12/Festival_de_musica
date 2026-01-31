@@ -1,0 +1,3 @@
+@use './base/variables' as v;  // as * nos permite usar las variables directamente sin necesidad de prefijo (variables)
+@forward './base/normalize';  // forward importa el archivo pero sin necesidad de usar pefijo
+@forward './base/globales';
